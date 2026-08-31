@@ -1,0 +1,3 @@
+email,empresa,plano,status,sla_horas,equipe_preferencial
+cliente.enterprise@exemplo.com,Empresa Exemplo,Enterprise,ativo,4,
+cliente.standard@exemplo.com,Empresa Standard,Standard,ativo,24,
