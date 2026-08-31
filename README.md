@@ -35,7 +35,7 @@ flowchart TD
 
 ## Requisitos
 
-- n8n 1.107.4 ou versão compatível.
+- n8n 2.36.9 ou versão compatível.
 - Credenciais OAuth2 do Gmail com leitura e envio.
 - Credencial OpenAI.
 - Credencial Google Sheets; conta de serviço ou OAuth2.
