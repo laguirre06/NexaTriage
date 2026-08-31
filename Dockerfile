@@ -6,7 +6,7 @@ ENV N8N_PORT=10000 \
     N8N_PERSONALIZATION_ENABLED=false \
     N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true \
     N8N_RUNNERS_ENABLED=false \
-    NODE_OPTIONS=--max-old-space-size=384 \
+    NODE_OPTIONS=--max-old-space-size=320 \
     GENERIC_TIMEZONE=America/Sao_Paulo \
     TZ=America/Sao_Paulo
 
