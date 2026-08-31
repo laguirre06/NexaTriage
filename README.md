@@ -118,7 +118,6 @@ O motor aplica prioridade crítica para sinais de indisponibilidade, produção,
 .
 ├── .env.example
 ├── config/
-├── docs/
 ├── scripts/
 ├── workflows/nexatriage-ai-ticket-triage.json
 ├── docker-compose.yml
