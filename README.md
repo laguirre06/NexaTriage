@@ -2,8 +2,6 @@
 
 Fluxo inteligente de triagem de tickets com n8n, OpenAI, Gmail, Google Sheets e Trello. A IA sugere; regras determinísticas validam prioridade, roteamento e risco; uma pessoa decide se a resposta pode ser enviada.
 
-Projeto adaptado de [`sabbrinaa-cloud/saaspro-ai-ticket-triage`](https://github.com/sabbrinaa-cloud/saaspro-ai-ticket-triage), preservando a licença original.
-
 ## O que foi aprimorado
 
 - Gmail como canal real de entrada, por polling de mensagens não lidas.
