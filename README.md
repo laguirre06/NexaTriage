@@ -58,6 +58,17 @@ flowchart TD
 6. Execute manualmente com um e-mail de teste e valide os dois caminhos de aprovação.
 7. Somente depois ative o workflow.
 
+### Render
+
+O repositório também contém um `Dockerfile` preparado para Render. Para uma
+instalação persistente, configure PostgreSQL por meio das variáveis
+`DB_TYPE=postgresdb`, `DB_POSTGRESDB_HOST`, `DB_POSTGRESDB_PORT`,
+`DB_POSTGRESDB_DATABASE`, `DB_POSTGRESDB_USER` e `DB_POSTGRESDB_PASSWORD`.
+
+Defina também `N8N_ENCRYPTION_KEY`, `N8N_HOST`, `N8N_PROTOCOL=https` e
+`WEBHOOK_URL` usando o hostname público provisionado. O plano gratuito é
+indicado apenas para POC e não para atendimento produtivo.
+
 Para regenerar e validar o artefato:
 
 ```bash
@@ -115,9 +126,11 @@ O motor aplica prioridade crítica para sinais de indisponibilidade, produção,
 ```text
 .
 ├── .env.example
+├── .dockerignore
 ├── config/
 ├── scripts/
 ├── workflows/nexatriage-ai-ticket-triage.json
+├── Dockerfile
 ├── docker-compose.yml
 ├── LICENSE
 └── README.md
